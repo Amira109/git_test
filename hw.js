@@ -23,13 +23,11 @@ for(let i = 0 ; i < HW.length ; i++){
     sum += HW[i].ppu ;
 }
 return sum ;
-//console.log("the sum of Ppu is :" + sum ) ;
 }
 function ppuAverage(){
 var sum = ppuSum() ;
 var avg = sum/HW.length ;
 return avg ; 
-//console.log("the average of Ppu is :" + avg ) ;
 }
 function batterID(){
 console.log("all batter type's id  ^^ ")
@@ -47,8 +45,6 @@ for(let i =0 ; i < HW.length ; i++){
     }
 }
 }
-
-
 toppingType() ;
 console.log() ;
 batterType() ;
